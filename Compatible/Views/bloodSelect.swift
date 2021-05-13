@@ -14,21 +14,27 @@ struct bloodSelect: View {
     
     var body: some View {
         VStack {
+            Form {
                 Text("Selected Blood Type: \(selectedBlood)")
                 Picker("", selection: $selectedBlood) {
                     Text("A").tag("A")
                     Text("B").tag("B")
                     Text("AB").tag("AB")
                     Text("O").tag("O")
-                }.labelsHidden()
+                }
+                .pickerStyle(SegmentedPickerStyle())
+            }
             
+            Form {
                 Text("Selected other person Blood Type: \(otherBlood)")
                 Picker("", selection: $otherBlood) {
                     Text("A").tag("A")
                     Text("B").tag("B")
                     Text("AB").tag("AB")
                     Text("O").tag("O")
-                }.labelsHidden()
+                }
+                .pickerStyle(SegmentedPickerStyle())
+            }
                 
             Button(action: {
                 

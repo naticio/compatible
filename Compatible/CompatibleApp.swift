@@ -11,7 +11,7 @@ import SwiftUI
 struct CompatibleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DatePickers()
         }
     }
 }

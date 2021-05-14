@@ -7,7 +7,7 @@
 
 import Foundation
 
-class User: Identifiable, Decodable {
+class Zodiac: Identifiable, Decodable {
     //COMMMENT
     var id:UUID?
     var animal:String

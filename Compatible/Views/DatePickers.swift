@@ -9,8 +9,8 @@ import SwiftUI
 
 struct DatePickers: View {
 
-    @State var myBirthDate = Date()
-    @State var otherBirthDate = Date()
+    @State public var myBirthDate = Date()
+    @State public var otherBirthDate = Date()
     
     var body: some View {
         NavigationView {

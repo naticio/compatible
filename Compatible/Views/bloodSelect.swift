@@ -9,8 +9,8 @@ import SwiftUI
 
 struct bloodSelect: View {
     
-    @State private var selectedBlood = ""
-    @State private var otherBlood = ""
+    @State public var selectedBlood = ""
+    @State public var otherBlood = ""
     
     var body: some View {
         VStack {

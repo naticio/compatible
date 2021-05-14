@@ -5,11 +5,13 @@
 //  Created by Nat-Serrano on 5/13/21.
 //
 
-import Foundation
+import Foundation //x
 
 class Zodiac: Identifiable, Decodable {
     //COMMMENT
     var id:UUID?
+    var from:Date
+    var to:Date
     var animal:String
     var type:String
     var personality:String

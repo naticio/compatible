@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct DatePickers: View {
-
+    @EnvironmentObject var model:ZodiacModel
+    
     @State public var myBirthDate = Date()
     @State public var otherBirthDate = Date()
+    @State public var myAnimal = ""
+    @State public var otherAnimal = ""
     
     var body: some View {
         NavigationView {
@@ -29,7 +32,15 @@ struct DatePickers: View {
                 
                 VStack {
                     NavigationLink(destination: bloodSelect()) {
-                        Text("Next")
+                        Button {
+                            ForEach(0..<model.signos.count) { index in
+                                if myBirthDate >= model.signos[index].from && myBirthDate <= model.signos[index].to {
+                                    myAnimal = model.signos[index].animal
+                                }
+                            }
+                        } label: {
+                            Text("Next")
+                        }
                     }
                 }
                 

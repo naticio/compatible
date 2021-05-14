@@ -12,7 +12,7 @@
 		B2F3F09C264DAD7B00CAE2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F3F09B264DAD7B00CAE2AE /* Assets.xcassets */; };
 		B2F3F09F264DAD7B00CAE2AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F3F09E264DAD7B00CAE2AE /* Preview Assets.xcassets */; };
 		B2F3F0A8264DADAB00CAE2AE /* Zodiac.json in Resources */ = {isa = PBXBuildFile; fileRef = B2F3F0A7264DADAB00CAE2AE /* Zodiac.json */; };
-		B2F3F0AC264DAFA200CAE2AE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F0AB264DAFA200CAE2AE /* User.swift */; };
+		B2F3F0AC264DAFA200CAE2AE /* Zodiac.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F0AB264DAFA200CAE2AE /* Zodiac.swift */; };
 		B2F3F0AF264DC12500CAE2AE /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F0AE264DC12500CAE2AE /* Results.swift */; };
 		B2F3F0B5264DC4B500CAE2AE /* bloodSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F0B4264DC4B500CAE2AE /* bloodSelect.swift */; };
 		B2F3F0B9264E11A600CAE2AE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F0B8264E11A600CAE2AE /* DataService.swift */; };
@@ -26,7 +26,7 @@
 		B2F3F09E264DAD7B00CAE2AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2F3F0A0264DAD7B00CAE2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2F3F0A7264DADAB00CAE2AE /* Zodiac.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Zodiac.json; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/L&F/Zodiac.json"; sourceTree = "<group>"; };
-		B2F3F0AB264DAFA200CAE2AE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B2F3F0AB264DAFA200CAE2AE /* Zodiac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zodiac.swift; sourceTree = "<group>"; };
 		B2F3F0AE264DC12500CAE2AE /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		B2F3F0B4264DC4B500CAE2AE /* bloodSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodSelect.swift; sourceTree = "<group>"; };
 		B2F3F0B8264E11A600CAE2AE /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		B2F3F0A9264DAF3400CAE2AE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B2F3F0AB264DAFA200CAE2AE /* User.swift */,
+				B2F3F0AB264DAFA200CAE2AE /* Zodiac.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 				B2F3F098264DAD7800CAE2AE /* CompatibleApp.swift in Sources */,
 				B2F3F0B9264E11A600CAE2AE /* DataService.swift in Sources */,
 				B2F3F0AF264DC12500CAE2AE /* Results.swift in Sources */,
-				B2F3F0AC264DAFA200CAE2AE /* User.swift in Sources */,
+				B2F3F0AC264DAFA200CAE2AE /* Zodiac.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
